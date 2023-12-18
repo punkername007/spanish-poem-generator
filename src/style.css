@@ -32,6 +32,7 @@ footer {
 
 a {
   color: #885df1;
+  text-decoration: none;
 }
 
 .container {
@@ -40,7 +41,7 @@ a {
 }
 
 .instructions {
-  border: 1px solid rgba(39, 33, 66, 0.5);
+  border: 1px solid rgba(66, 38, 33, 0.5);
   border-radius: 50px;
   color: #272044;
   font-size: 16px;
