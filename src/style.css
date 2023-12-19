@@ -68,3 +68,7 @@ a {
   padding: 20px;
   line-height: 2;
 }
+
+.poem strong {
+  color: blueviolet;
+}
