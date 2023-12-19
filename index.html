@@ -15,18 +15,21 @@
       </header>
 
       <main>
-        <form action="#" id="poem-form-element">
-          <input
-            type="text"
-            name=""
-            placeholder="Enter the topic of the poem"
-            required
-            class="instructions"
-            id="instructions"
-          />
-          <input type="submit" value="Submit" class="submit-button" />
-        </form>
-        <div class="poem" id="poem"></div>
+        <div class="form-container">
+          <form action="#" id="poem-form-element">
+            <input
+              type="text"
+              name=""
+              placeholder="Enter the topic of the poem ..."
+              required
+              class="instructions"
+              id="instructions"
+            />
+            <input type="submit" value="Submit" class="submit-button" />
+          </form>
+          <div class="hint">i.e: Flower, Hugs or Sea</div>
+        </div>
+        <div class="poem hidden" id="poem"></div>
       </main>
       <footer>
         This project was coded by
